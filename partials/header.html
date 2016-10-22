@@ -1,0 +1,13 @@
+<link rel="import" href="jquery.html">
+
+<div id="content">
+  Header
+</div>
+
+<!-- Append itself to header div -->
+<script>
+  var me = document.currentScript.ownerDocument;
+  var content = me.querySelector('#content').innerHTML;
+
+  $("#header").replaceWith(content);
+</script>
