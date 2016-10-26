@@ -15,3 +15,5 @@ npm install
 ```bash
 npm start
 ```
+The server runs on port 3000.  
+You can acces it at [localhost:3000](http://localhost:3000) or [127.0.0.1:3000](http://127.0.0.1:3000)
