@@ -1,5 +1,17 @@
 # GitMe
 SWEN 444 Project
 
-- bootstrap - 3.3.7
-- jquery - 3.1.1
+### Dependencies
+Handled by npm and bower
+
+### Setup
+[Install npm](https://docs.npmjs.com/getting-started/installing-node)  
+Navigate to project directory and run:
+```bash
+npm install
+```
+
+### Running
+```bash
+npm start
+```
