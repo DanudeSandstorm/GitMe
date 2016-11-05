@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitMe Requests</title>
+    <link rel="import" href="partials/header.html">
+    <link rel="import" href="partials/footer.html">
+    <link rel="stylesheet" type="text/css" href="../resources/css/request-permission.css">
+
+</head>
+<body>
+<div id="header"></div>
+<center><font size="20">Permission Requests</font>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td class="description">
+                <div class="projectname"><font color="#4078c0"><b>SWEN-444</b></font></div>
+                <div><b>User: Bob</b></div>
+                <div>Message: Can I make this request please?</div>
+            </td>
+
+            <td class="button" id="l1b">
+                <input id="firstLineA" type="button" value="Accept" onclick="toggle1A()"/>
+                <input id="firstLineR" type="button" value="Reject" onclick="toggle1R()" />
+                <div id="l1at" class="hide"> <b>Accepted</b> </div>
+                <div id="l1rt" class="hide"> <b>Rejected</b> </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="description">
+                <div class="projectname"><font color="#4078c0"><b>SWEN-444</b></font></div>
+                <div><b>User: Mike</b></div>
+                <div>Message: I have no idea what I did.</div>
+            </td>
+            <td class="button" id="l2b">
+                <input id="secondLineA" type="button" value="Accept" onclick="toggle2A()"/>
+                <input id="secondLineR" type="button" value="Reject" onclick="toggle2R()" />
+                <div id="l2at" class="hide"> <b>Accepted</b> </div>
+                <div id="l2rt" class="hide"> <b>Rejected</b> </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="description">
+                <div class="projectname"><font color="#4078c0"><b>CSCI-262</b></font></div>
+                <div><b>User: Jerome</b></div>
+                <div>Message: Hey. I am in your team.</div>
+            </td>
+            <td class="button" id="l3b">
+                <input id="thirdLineA" type="button" value="Accept" onclick="toggle3A()"/>
+                <input id="thirdLineR" type="button" value="Reject" onclick="toggle3R()" />
+                <div id="l3at" class="hide"> <b>Accepted</b> </div>
+                <div id="l3rt" class="hide"> <b>Rejected</b> </div>
+            </td>
+        </tr>
+    </table>
+</center>
+<div id="footer"></div>
+<script src="../resources/scripts/request-perm.js"></script>
+</body>
+</html>
