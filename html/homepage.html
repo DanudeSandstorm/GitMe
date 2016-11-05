@@ -5,59 +5,8 @@
 	<title>Search Results</title>
 	<link rel="import" href="partials/header.html">
 	<link rel="import" href="partials/footer.html">
-	<!-- <script type="text/javascript" src="../resources/scripts/homepage.js"> -->
-	
-<script text="text/javascript">
-
-	var vis1 = false;
-	var vis2 = false;
-	var vis3 = false;
-
-	function myFunction1()
-{
-	
-	if(vis1 == false){
-		document.getElementById("accept").style.visibility = 'visible';
-		document.getElementById("reject").style.visibility = 'visible';
-		vis1 = true;
-	}
-	else{
-		document.getElementById("accept").style.visibility = 'hidden';
-		document.getElementById("reject").style.visibility = 'hidden';
-		vis1 = false;
-	}
-}
-
-	function myFunction2()
-{
-
-	if(vis2 == false){
-		document.getElementById("accept2").style.visibility = 'visible';
-		document.getElementById("reject2").style.visibility = 'visible';
-		vis2 = true;
-	}
-	else{
-		document.getElementById("accept2").style.visibility = 'hidden';
-		document.getElementById("reject2").style.visibility = 'hidden';
-		vis2 = false;
-	}
-}
-
-	function myFunction3()
-{
-	if(vis3 == false){
-		document.getElementById("accept3").style.visibility = 'visible';
-		document.getElementById("reject3").style.visibility = 'visible';
-		vis3 = true;
-	}
-	else{
-		document.getElementById("accept3").style.visibility = 'hidden';
-		document.getElementById("reject3").style.visibility = 'hidden';
-		vis3 = false;
-	}
-}
-
-</script>
+	<link rel="stylesheet" type="text/css" href="../resources/css/homepage.css">
+	<script type="text/javascript" src="../resources/scripts/homepage.js">
 
 </head>
 <body>
@@ -71,7 +20,7 @@
 			<tr>
 				<td><img src="../resources/images/silouhette.png" width="200" height="150" alt="Project 1" /></td>
 				<td class="description">
-				<button id="pullRequest" class= "button pullRequest" onclick="myFunction1()"><div class="projectname"><font color="#4078c0"><b>Repository 1</b></font></div>
+				<button id="pullRequest" class= "button pullRequest" onclick="javascript:myFunction1();"><div class="projectname"><font color="#4078c0"><b>Repository 1</b></font></div>
 				<div><b>Owner: Jeffery</b></div>
 				<div>This is a test description for Jeffery's project. Now I am just writing words to fill up space.</div></button>
 				<button id="accept" class="button accept"><b>Accept</b></button>
