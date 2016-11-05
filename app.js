@@ -17,7 +17,7 @@ var mount = st({
 
 
 app.get('/', function (req, res, next) {
-  	res.sendFile( __dirname + '/html/index.html');
+  	res.sendFile( __dirname + '/html/homepage.html');
 });
 
 app.get('/lib/*', function (req, res, next) {
