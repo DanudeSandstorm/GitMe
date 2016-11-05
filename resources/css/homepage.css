@@ -78,3 +78,7 @@ button.pullRequest{
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
+
+centerPage{
+	text-align: center;
+}
