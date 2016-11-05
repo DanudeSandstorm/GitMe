@@ -1,0 +1,41 @@
+p {
+  border: 5px;
+  padding: 20px;
+  width: 275px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+} 
+
+input {
+	padding: 10px;
+	width: 275px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+center {
+  font-family: Arial, Verdana, sans-serif;
+  color: #111111;
+  border: 5px solid #4078c0;
+  padding: 20px;
+  width: 675px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+loginTable {
+	padding: 50px 50px 50px 50px;
+	border: 0px white;
+	width: 50%;
+	height: 40%;
+	align: center;
+}
+
+td {
+	text-align: center;
+}
