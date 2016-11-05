@@ -1,3 +1,16 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* The html and body elements cannot have any padding or margin. */
+html,
+body {
+    height: 100%;
+}
+
+#footer {
+    height: 60px;
+}
+#footer {
+	background-color: #f5f5f5;
+}
