@@ -13,7 +13,9 @@ center {
     padding: 20px;
     width: 675px;
 }
-
+table{
+    alignment: center;
+}
 th {
     border-bottom: 1px solid #0088dd;
     text-align: left;
@@ -29,22 +31,47 @@ td {
 }
 
 td.description {
-     min-width: 450px;
-     max-width: 650px;
+     width: 60%;
      text-align: left;
      padding: 5px;
      margin: 0px;
  }
 td.button {
-
-    horiz-align: center;
-    vertical-align: middle;
+    width: 30%;
     margin: 0 auto;
-    padding: 10px 20px 0px 0px;
 }
 div.hide {
     display:none;
 }
 div.show {
     text-align: center;
+}
+button.accept {
+    background-color: #4CAF50;
+    color: black;
+    border: 2px solid #4CAF50;
+    width:45%;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button.accept:hover {
+    background-color: white;
+    color: black;
+}
+
+button.reject {
+    background-color: #f44336;
+    color: black;
+    border: 2px solid #f44336;
+    width:45%;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button.reject:hover {
+    background-color: white;
+    color: black;
 }
