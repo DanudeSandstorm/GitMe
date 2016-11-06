@@ -7,17 +7,19 @@ var shorten_url = st({
 	path: __dirname + '/html', 
 	url: '/',
 	passthrough: true,
+	cache: false,
 	cors: true
 });
 
 var mount = st({ 
+	cache: false,
 	path: process.cwd(),
 	cors: true 
 });
 
 
 app.get('/', function (req, res, next) {
-  	res.sendFile( __dirname + '/html/index.html');
+  	res.sendFile( __dirname + '/html/homepage.html', {etag: false});
 });
 
 app.get('/lib/*', function (req, res, next) {

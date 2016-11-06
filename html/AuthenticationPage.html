@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="import" href="../partials/base.html">
+	<link rel="stylesheet" type="text/css" href="../resources/css/login.css">
+	<title>GitMe Registration</title>
+</head>
+
+<body>
+    <div id="header"></div>
+	<div id="section">
+		<div id="login" align="center">
+			<table class="loginTable">
+				<tr>
+				<h1 class="brand-heading">Authentication with GitHub</h1>
+				</tr>
+				<tr>
+					<td>
+						<p>GitHub Username</p>
+					</td>
+					<td>
+						<input type="text" autofocus placeholder="username" required></input>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>GitHub Password</p>
+					</td>
+					<td>
+						<input type="password" required></input>
+					</td>
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+					<td colspan=3 align="center">
+						<a style="color: black" data-toggle="modal" data-target="#2FAModal"><button type="submit" style="height:46px; width:250px; font-size:18px; color:black">Authenticate</button></a>
+						&nbsp;
+						<a style="color: black" href="profile.html"><button type="submit" style="height:46px; width:250px; font-size:18px; color:black">Skip GitHub Authentication</button></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="footNote" align="center" style="width:90%;">
+		<p style="width:100%; font-size:16px; padding-left:5%">We ask for your GitHub credentials so that GitMe can properly manage your Pull Requests and Contributors of all of your projects for you. We will not make changes without your explicit clicks, and will not store this data in plaintext anywhere. You may still use GitMe without signing in with GitHub to watch and peruse the repositories you have chosen, but the main functionality will not be usable.</p>
+		</div>
+	</div>
+    <div id="footer"></div>
+</body>
+
+
+	   <!-- Register Modal -->
+  <div class="modal fade" id="2FAModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Authetication Code</h4>
+        </div>
+        <form action="" method="POST" id="authKey"> <input type='hidden' name='csrfmiddlewaretoken' value='HZEZWsAUKcusiDJIe3uZQqGREr8Ombuc' />
+          <div class="modal-body">
+			Please enter the 6 digit authentication code for your GitHub account.
+			<br>
+			<input type="number" name="authCode" placeholder="Authentication Code"></input>
+		  </div>
+		</form>
+        <div class="modal-footer">
+            <a href="/profile.html" class="btn">Verify</a>
+            <a href="#" data-dismiss="modal" class="btn">Cancel</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+</html>
