@@ -1,7 +1,10 @@
 var express = require('express'),
   	app = express(),
+  	logger = require('morgan'),
   	st = require('st');
 
+
+app.use(logger('dev'));
 
 var shorten_url = st({ 
 	path: __dirname + '/html', 
