@@ -8,8 +8,8 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  /* Margin bottom by footer height + some white space*/
+  margin-bottom: 80px;
 }
 .footer {
   position: absolute;
@@ -19,11 +19,13 @@ body {
   height: 60px;
 }
 /* Other footer style */
-.footer {
+.footer .container, .footer {
 	background: #80ffff;
+}
+.footer .container {
+	padding-top: 20px;
 	color: black; 
 	text-align:center;
-	padding-top: 20px;
 }
 
 /*.navbar-center
