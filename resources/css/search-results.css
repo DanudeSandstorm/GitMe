@@ -7,12 +7,14 @@ p {
   -webkit-border-radius: 10px;
 } 
 
-center {
-  font-family: Arial, Verdana, sans-serif;
+.row {
+  margin-right: inherit;
+}
+
+.content-outline {
   color: #111111;
   border: 5px solid #4078c0;
   padding: 20px;
-  width: 675px;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -30,12 +32,11 @@ td {
   min-height: 200px;
   vertical-align: top;
   line-height: 1.4em;
+  padding-top: 2em;
 }
 
 td.description {
-  min-width: 450px;
-  max-width: 650px;
   text-align: left;
-  padding: 5px;
-  margin: 0px;
+  padding-left: 2em;
+  padding-top: 3em;
 }
