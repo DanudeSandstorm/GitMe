@@ -3,10 +3,8 @@
 <html>
 <head>
     <title>GitMe Requests</title>
-    <link rel="import" href="partials/header.html">
-    <link rel="import" href="partials/footer.html">
+    <link rel="import" href="../partials/base.html">
     <link rel="stylesheet" type="text/css" href="../resources/css/request-permission.css">
-
 </head>
 <body>
 <div id="header"></div>
@@ -24,8 +22,8 @@
             </td>
 
             <td class="button" id="l1b">
-                <input id="firstLineA" type="button" value="Accept" onclick="toggle1A()"/>
-                <input id="firstLineR" type="button" value="Reject" onclick="toggle1R()" />
+                <button id="accept1" class="button accept" onclick="toggle1A()"><b>Accept</b></button>
+                <button id="reject1" class="button reject" onclick="toggle1R()"><b>Reject</b></button>
                 <div id="l1at" class="hide"> <b>Accepted</b> </div>
                 <div id="l1rt" class="hide"> <b>Rejected</b> </div>
             </td>
@@ -38,8 +36,8 @@
                 <div>Message: I have no idea what I did.</div>
             </td>
             <td class="button" id="l2b">
-                <input id="secondLineA" type="button" value="Accept" onclick="toggle2A()"/>
-                <input id="secondLineR" type="button" value="Reject" onclick="toggle2R()" />
+                <button id="accept2" class="button accept" onclick="toggle2A()"><b>Accept</b></button>
+                <button id="reject2" class="button reject" onclick="toggle2R()"><b>Reject</b></button>
                 <div id="l2at" class="hide"> <b>Accepted</b> </div>
                 <div id="l2rt" class="hide"> <b>Rejected</b> </div>
             </td>
@@ -51,8 +49,8 @@
                 <div>Message: Hey. I am in your team.</div>
             </td>
             <td class="button" id="l3b">
-                <input id="thirdLineA" type="button" value="Accept" onclick="toggle3A()"/>
-                <input id="thirdLineR" type="button" value="Reject" onclick="toggle3R()" />
+                <button id="accept3" class="button accept" onclick="toggle3A()"><b>Accept</b></button>
+                <button id="reject3" class="button reject" onclick="toggle3R()"><b>Reject</b></button>
                 <div id="l3at" class="hide"> <b>Accepted</b> </div>
                 <div id="l3rt" class="hide"> <b>Rejected</b> </div>
             </td>

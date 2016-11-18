@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <link rel="import" href="../partials/bootstrap.html">
-    <link rel="import" href="../partials/header.html">
-    <link rel="import" href="../partials/footer.html">
-	<link rel="stylesheet" type="text/css" href="../resources/css/login.css">
-	<title>GitMe Login</title>
+<head>  
+  <title>GitMe Login</title>
+  <link rel="import" href="../partials/base.html">
+  <link rel="stylesheet" type="text/css" href="../resources/css/login.css">
 </head>
-
 <body>
+<<<<<<< HEAD
     <div id="header"></div>
 	<div id="section">
 		<div id="login" align="center">
@@ -57,8 +54,53 @@
     <div id="footer"></div>
 </body>
 
+=======
+  <div id="header"></div>
+  <div id="section">
+    <div id="login" align="center">
+      <table class="loginTable">
+        <tr>
+          <h1 class="brand-heading">GitMe</h1>
+        </tr>
+        <tr>
+          <td>
+            <p>GitMe Username</p>
+          </td>
+          <td>
+            <input type="text" autofocus placeholder="username" required></input>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>GitMe Password</p>
+          </td>
+          <td>
+            <input type="password" required></input>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="http://accounts.google.com"><img src="../resources/images/btn_google_signin.png"></img></a>
+          </td>
+          <td>
+            <a href="../profile.html"><button type="submit" style="height:46px; width:191px; font-size:18px; color:black">Login to GitMe</button></a>
+          </td>
+        </tr>
+        <tr><td>&nbsp;</td></tr>
+        <tr>
+          <td colspan=3 align="center">
+            <a style="color: black" data-toggle="modal" data-target="#registerModal"><button type="submit" style="height:46px; width:250px; font-size:18px; color:black">Register through GitMe</button></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+>>>>>>> origin/development
 
-	   <!-- Register Modal -->
+   <!-- Register Modal -->
   <div class="modal fade" id="registerModal" role="dialog">
     <div class="modal-dialog">
 
@@ -70,18 +112,18 @@
         </div>
         <form action="" method="POST" id="Register"> <input type='hidden' name='csrfmiddlewaretoken' value='HZEZWsAUKcusiDJIe3uZQqGREr8Ombuc' />
           <div class="modal-body">
-			  Username:<input type="username" name="Register" placeholder="Username" style="float:right">
-			  <br><br><br>
-			  Password:<input type="password" name="Password" placeholder="Password" style="float:right">
-			  <br><br><br>
-			  Confirm Password:<input type="password" name="cPassword" placeholder="Password" style="float:right">
-			  <br><br><br>
-			  Email Address:<input type="email" name="Email" placeholder="Email Address" style="float:right">
-			  <br><br><br>
-			  By clicking register you agree to receive the occasional email from GitMe is response to our development
-			  and activities. You also agree that GitMe has no right to your data and will not give it out to anyone.
-			  Your data will only be used to authenticate with GitHub servers and stored in encrypted form.
-			 </div>
+        Username:<input type="username" name="Register" placeholder="Username" style="float:right">
+        <br><br><br>
+        Password:<input type="password" name="Password" placeholder="Password" style="float:right">
+        <br><br><br>
+        Confirm Password:<input type="password" name="cPassword" placeholder="Password" style="float:right">
+        <br><br><br>
+        Email Address:<input type="email" name="Email" placeholder="Email Address" style="float:right">
+        <br><br><br>
+        By clicking register you agree to receive the occasional email from GitMe is response to our development
+        and activities. You also agree that GitMe has no right to your data and will not give it out to anyone.
+        Your data will only be used to authenticate with GitHub servers and stored in encrypted form.
+       </div>
         </form>      
         <div class="modal-footer">
             <a href="/AuthenticationPage.html" class="btn">Register</a>
@@ -92,6 +134,6 @@
     </div>
   </div>
 
-
-
+  <div id="footer"></div>
+</body>
 </html>

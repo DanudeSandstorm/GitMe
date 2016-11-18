@@ -2,8 +2,7 @@
 <html>
 <head>
     <title>User Page</title>
-    <link rel="import" href="partials/header.html">
-    <link rel="import" href="partials/footer.html">
+    <link rel="import" href="../partials/base.html">
     <link rel="stylesheet" type="text/css" href="../resources/css/user-info.css">
 </head>
 <body style="background-color: #2aabd2">
@@ -13,7 +12,7 @@
     <br><br><br><br>
     Coder_Bob
     <br>
-    bobby@g.rit.edu
+    bob@rit.edu
     <br><br><br><br>
 </div>
 
@@ -26,25 +25,14 @@
     </ul>
 
     <div id="tab-1" class="tab-content current">
-        <div class="content">
-            <div><b>SWEN-444</b></div>
+        <div class="buttons">
+            <a href="pullRequests.html" class="btn btn-default" id="btn1"><br>SWEN-444</a>
             <br>
-            <div>Commits: 100&nbsp;&nbsp;Branches: 2</div>
-        </div>
-        <div class="content">
-            <div><b>SWEN-262</b></div>
+            <a href="#" class="btn btn-default" id="btn2"><br>SWEN-262</a>
             <br>
-            <div>Commits: 4&nbsp;&nbsp;Branches: 1</div>
-        </div>
-        <div class="content">
-            <div><b>A big project</b></div>
+            <a href="#" class="btn btn-default" id="btn3"><br>Personal Project 1</a>
             <br>
-            <div>Commits: 9999&nbsp;&nbsp;Branches: 100</div>
-        </div>
-        <div class="content">
-            <div><b>Senior project</b></div>
-            <br>
-            <div>Commits: 20&nbsp;&nbsp;Branches: 2</div>
+            <a href="#" class="btn btn-default" id="btn4"><br>Senior Project</a>
         </div>
 
     </div>
@@ -102,6 +90,7 @@
     Meaningless Graph 1
     <br><br><br><br>
 </div>
+<div id="footer"></div>
 <script src="../resources/scripts/tabs.js"></script>
 </body>
 </html>
