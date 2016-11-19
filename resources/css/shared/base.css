@@ -48,4 +48,6 @@ body {
   color: black; 
   text-align:center;
 }
-
+.footer.navbar-default {
+  border-radius: 0;
+}
