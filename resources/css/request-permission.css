@@ -1,77 +1,28 @@
-p {
-
-    padding: 20px;
-    width: 275px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+div.button .button{
+    margin-top: 1.8em;
 }
 
-center {
-    font-family: Arial, Verdana, sans-serif;
-    color: #111111;
-    padding: 20px;
-    width: 675px;
-}
-table{
-    alignment: center;
-}
-th {
-    border-bottom: 1px solid #0088dd;
-    text-align: left;
-    color: #0088dd;
-    font-weight: normal;
+div.button div.show{
+    margin-top: 1.1em;
 }
 
-td {
-    min-width: 150px;
-    min-height: 200px;
-    line-height: 1.4em;
-    border-bottom: 1px solid #0088dd;
-}
-
-td.description {
-     width: 60%;
-     text-align: left;
-     padding: 5px;
-     margin: 0px;
- }
-td.button {
-    width: 30%;
-    margin: 0 auto;
-}
 div.hide {
-    display:none;
+    display: none;
 }
 div.show {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 button.accept {
-    background-color: #4CAF50;
-    color: black;
-    border: 2px solid #4CAF50;
     width:45%;
     padding: 10px 10px 10px 10px;
-    font-size: 16px;
-    text-align: center;
-}
-
-button.accept:hover {
-    background-color: white;
-    color: black;
+    visibility: visible;
 }
 
 button.reject {
-    background-color: #f44336;
-    color: black;
-    border: 2px solid #f44336;
     width:45%;
     padding: 10px 10px 10px 10px;
-    font-size: 16px;
-    text-align: center;
-}
-
-button.reject:hover {
-    background-color: white;
-    color: black;
+    visibility: visible;
+    float: right;
 }
