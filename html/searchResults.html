@@ -4,12 +4,12 @@
 <head>
 	<title>Search Results</title>
 	<link rel="import" href="../partials/base.html">
-	<link rel="stylesheet" type="text/css" href="../resources/css/search-results.css">
+	<link rel="stylesheet" type="text/css" href="../resources/css/homepage.css">
 </head>
 <body>
 <div id="header"></div>
-	<div class="row"><div class="col-md-8 col-md-offset-2"><div class="content-outline">
-		<font size="20">Search Results</font>
+<div id="centerPage" align="center">
+	<center><font size="20">Search Results</font>
 		<table>
 			<tr>
 				<th></th>
@@ -18,29 +18,32 @@
 			<tr>
 				<td><img src="../resources/images/silouhette.png" width="200" height="150" alt="Project 1" /></td>
 				<td class="description">
-					<div class="projectname"><font color="#4078c0"><b>Test Project</b></font></div>
-					<div><b>Owner: Jeffery</b></div>
-					<div>This is a test description for Jeffery's project. Now I am just writing words to fill up space.</div>
+					<button id="pullRequest" class= "button pullRequest" onclick="clicked()"><div class="projectname"><font color="#4078c0"><b>Repository 1</b></font></div>
+						<div><b>Owner: Jeffery</b></div>
+						<div>This is a test description for Jeffery's project. Now I am just writing words to fill up space.</div></button>
 				</td>
 			</tr>
 			<tr>
 				<td><img src="../resources/images/silouhette.png" width="200" height="150" alt="Project 2" /></td>
 				<td class="description">
-					<div class="projectname"><font color="#4078c0"><b>Test Project</b></font></div>
-					<div><b>Owner: Jeffery</b></div>
-					<div>This is a test description for Jeffery's project. Lorum ipsum and all that stuff. This is here to take up space and test how this looks. Again this is simply a test to see what this looks like.</div>
+					<button id="pullRequest2" class= "button pullRequest" ><div class="projectname"><font color="#4078c0"><b>Test Project</b></font></div>
+						<div><b>Owner: Jeffery</b></div>
+						<div>This is a test description for Jeffery's project. Lorum ipsum and all that stuff. This is here to take up space and test how this looks. Again this is simply a test to see what this looks like.</div></button>
 				</td>
 			</tr>
 			<tr>
 				<td><img src="../resources/images/silouhette.png" width="200" height="150" alt="Project 3" /></td>
 				<td class="description">
-					<div class="projectname"><font color="#4078c0"><b>Test Project</b></font></div>
-					<div><b>Owner: Jeffery</b></div>
-					<div>This is a test description for Jeffery's project. So I just found out that making a long word without putting a space in makes this formatting fail. Not sure how I'm gonna fix that but yeah don't do anything like putting "Uhhhh" with a bunch of Hs in your description.</div>
+					<button id="pullRequest3" class= "pullRequest"><div class="projectname"><font color="#4078c0"><b>Test Project</b></font></div>
+						<div><b>Owner: Jeffery</b></div>
+						<div>This is a test description for Jeffery's project. So I just found out that making a long word without putting a space in makes this formatting fail. Not sure how I'm gonna fix that but yeah don't do anything like putting "Uhhhh" with a bunch of Hs in your description.</div></button>
 				</td>
 			</tr>
 		</table>
-	</div></div></div>
-	<div id="footer"></div>
+	</center>
+</div>
+<div id="footer"></div>
+<script type="text/javascript" src="../resources/scripts/searchResult.js"></script>
+
 </body>
 </html>
