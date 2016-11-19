@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 p {
   border: 5px;
   padding: 20px;
@@ -28,13 +32,15 @@ center {
   -webkit-border-radius: 10px;
 }
 
-loginTable {
+/*.loginTable {
 	padding: 50px 50px 50px 50px;
 	border: 0px white;
 	width: 50%;
 	height: 40%;
-	align: center;
+	text-align: center;
 }
+*/
+
 
 td {
 	text-align: center;
