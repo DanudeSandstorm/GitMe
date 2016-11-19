@@ -12,9 +12,13 @@ body{
 	border: 3px solid black;
 	height: 200px;
 	float:left;
-	margin-top: 100px;
+	margin-top: 10px;
 	margin-left:10%;
 	margin-right:10%;
+}
+
+#footer{
+	margin-left: 10px;
 }
 
 #feed{
@@ -23,6 +27,7 @@ body{
 	float:left;
 	border: 3px solid black;
 	width: 80%;
+	margin-bottom: 100px;
 	margin-top: 50px;
 	margin-left:10%;
 	margin-right:10%;

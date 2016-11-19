@@ -1,0 +1,29 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height + some white space*/
+  margin-bottom: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+/* Other footer style */
+.footer .container, .footer {
+	background: #80ffff;
+}
+.footer .container {
+	padding-top: 20px;
+	color: black; 
+	text-align:center;
+}
