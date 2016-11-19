@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Pull Request</title>
+	<link rel="import" href="../partials/base.html">
+	<link rel="stylesheet" type="text/css" href="../resources/css/individualPR.css">
+</head>
+<body>
+	<div id="header"></div>
+		<div class="infoDisplay" id="infoDisplay">
+			<h3 class="repoInfo"> 
+			<a href="UserInfo.html"><button id="repositoryButton" class="button backButton">Back To Repositories</button></a>
+			<br>
+			<br>
+			Author: Bill Murray
+			<br>
+			<br>
+			Opened on: 10/11/2016
+			</h3>
+			<h3 class="navButtons">
+			<a href="pullRequests.html"><button id="viewPullRequestsButton" class="button prButton">View All Pull Requests</button></a>
+			<br>
+			<br>
+			<br>
+			<button id="accept" class="button accept"><b>Accept</b></button>
+			<button id="reject" class="button reject"><b>Reject</b></button>
+			</h3>
+		</div>
+		<div id="feed">
+			<div class="buttons">
+				<div class="originalCode">
+				
+<table id="originalCode" class="table originalTable">
+  <tr>
+    <th>Line No.</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>def main():</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>	x=1</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>	array=[]</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>	while x != 100:</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>		array.append(x)</td>
+  </tr>
+</table>
+
+<table id="modifiedCode" class="table modifiedTable">
+  <tr>
+    <th>Line No.</th>
+    <th>Code</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>def main():</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>	x=1</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>	array=[]</td>
+  </tr>
+  <tr>
+    <td bgcolor="#4CAF50">4</td>
+    <td bgcolor="#4CAF50">	#inserting a comment here</td>
+  </tr>
+  <tr>
+    <td bgcolor="#4CAF50">5</td>
+    <td bgcolor="#4CAF50">		while x != 100:</td>
+  </tr>
+</table>
+			</div>
+		</div>
+	<div id="footer"></div>
+</body>
+</body>
+</html>
+
+
