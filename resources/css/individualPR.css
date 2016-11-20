@@ -20,13 +20,13 @@
 	margin-right:10%;
 }
 
-.comment {
+.comment-area {
 	text-align: right;
 	margin-top: 2em;
 	margin-right: 8%;
 }
 
-.comment span {
+.comment-area span {
 	padding-right: 1em;
 }
 
@@ -36,7 +36,23 @@
 	text-align: left;
 }
 
-button#add-comment {
+#comment-box {
+	margin-top: 1em;
+	display: none;
+}
+
+#comment-box textarea {
+	resize: none;
+	width: 500px;
+	height: 100px;
+}
+
+#comment {
+	margin-top: 1em;
+}
+
+.comment {
+	margin-top: .5em;
 }
 
 .row {
