@@ -20,9 +20,26 @@ var mount = st({
 	cors: true 
 });
 
-
+var login = false;
 app.get('/', function (req, res, next) {
-  	res.sendFile( __dirname + '/html/homepage.html', {etag: false});
+	console.log(login);
+	if (!login) {
+		res.redirect('/loginPage.html');
+	} 
+	else {
+  		res.sendFile( __dirname + '/html/homepage.html', {etag: false});
+	}
+});
+
+app.get('/login', function(req, res, next) {
+	login = true;
+	console.log(login);
+	res.redirect('/');
+});
+
+app.get('/logout', function(req, res, next) {
+	login = false;
+	res.redirect('/');
 });
 
 app.get('/lib/*', function (req, res, next) {
