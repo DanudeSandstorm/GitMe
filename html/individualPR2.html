@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Pull Request</title>
+	<link rel="import" href="../partials/base.html">
+	<link rel="stylesheet" type="text/css" href="../resources/css/individualPR.css">
+</head>
+<body>
+  <div id="header"></div>
+  <div class="row">
+  	<div class="infoDisplay" id="infoDisplay">
+  		<h3 class="repoInfo"> 
+  		<a href="UserInfo.html"><button id="repositoryButton" class="button backButton">Back To Repositories</button></a>
+  		<br>
+  		<br>
+  		Author: Roald Dahl
+  		<br>
+  		<br>
+  		Opened on: 11/11/2016
+  		</h3>
+  		<h3 class="navButtons">
+  		<a href="pullRequests.html"><button id="viewPullRequestsButton" class="button prButton">View All Pull Requests</button></a>
+  		<br>
+  		<br>
+  		<br>
+		<div class="button" id="l1b">
+  		<button id="accept" class="button accept" onclick="toggle1A()"><b>Accept</b></button>
+  		<button id="reject" class="button reject" onclick="toggle1R()"><b>Reject</b></button>
+		<div id="l1at" class="hide"> <b>Accepted</b> </div>
+        <div id="l1rt" class="hide"> <b>Rejected</b> </div>
+		</div>
+  		</h3>
+  	</div>
+  	<div id="feed">
+      <div class="comment-area">
+        <button id="add-comment" title="Add comment">
+          <img src="../resources/images/plus.png">
+          <span> Add a comment </span>
+        </button>
+        <br>
+        <div id="comment-box">
+          <textarea id="text-area"></textarea>
+          <br>
+          <button id="comment-accept" class="button accept"><b>Accept</b></button>
+          <button id="comment-reject" class="button reject"><b>Reject</b></button>
+        </div>
+        <div id="comment"></div>
+      </div>
+
+  		<div class="diffs">
+        <table id="originalCode" class="table originalTable">
+          <th> Original Code </th>
+          <tr>
+            <th>Line No.</th>
+            <th>Code</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>def functionThing():</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>	y=2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>	array=[]</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>	while x != 69:</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>		array.remove(x)</td>
+          </tr>
+        </table>
+
+        <table id="modifiedCode" class="table modifiedTable">
+          <th> Modified Code </th>
+          <tr>
+            <th>Line No.</th>
+            <th>Code</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>def functionThing():</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>	y=2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>	array=[]</td>
+          </tr>
+          <tr>
+            <td bgcolor="#f44336">4</td>
+            <td bgcolor="#f44336">	while x != 69:</td>
+          </tr>
+          <tr>
+            <td bgcolor="#4CAF50">5</td>
+            <td bgcolor="#4CAF50">		while x != 70:</td>
+          </tr>
+        </table>
+  		</div>
+	  </div>
+  </div>
+  <div id="footer"></div>
+  <script type="text/javascript" src="../resources/scripts/individualPR.js"></script>
+</body>
+</html>
+
+
