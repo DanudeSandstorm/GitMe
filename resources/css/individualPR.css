@@ -138,3 +138,13 @@ button.backButton{
 	margin-left: 100px;
 	width: 500px;
 }
+
+div.hide {
+    display: none;
+}
+
+div.show {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

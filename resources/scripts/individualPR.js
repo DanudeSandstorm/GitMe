@@ -22,3 +22,24 @@ document.getElementById("comment-reject").onclick = function () {
 	a.style.display = 'none';
 };
 
+function toggle1A() {
+    var a = document.getElementById('accept');
+    var b = document.getElementById('reject');
+    var r = document.getElementById('l1b');
+    var t = document.getElementById('l1at');
+    a.style.display = 'none';
+    b.style.display = 'none';
+    r.style.backgroundColor = '#4CAF50'
+    t.className = "show";
+}
+
+function toggle1R() {
+    var a = document.getElementById('accept');
+    var b = document.getElementById('reject');
+    var r = document.getElementById('l1b');
+    var t = document.getElementById('l1rt');
+    a.style.display = 'none';
+    b.style.display = 'none';
+    r.style.backgroundColor = '#f44336'
+    t.className = "show";
+}
