@@ -22,7 +22,6 @@ var mount = st({
 
 var login = false;
 app.get('/', function (req, res, next) {
-	console.log(login);
 	if (!login) {
 		res.redirect('/loginPage.html');
 	} 
@@ -33,7 +32,6 @@ app.get('/', function (req, res, next) {
 
 app.post('/login', function(req, res, next) {
 	login = true;
-	console.log(login);
 	res.redirect('/');
 });
 
