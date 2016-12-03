@@ -31,7 +31,7 @@ app.get('/', function (req, res, next) {
 	}
 });
 
-app.get('/login', function(req, res, next) {
+app.post('/login', function(req, res, next) {
 	login = true;
 	console.log(login);
 	res.redirect('/');
