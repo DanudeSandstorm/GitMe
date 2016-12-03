@@ -14,15 +14,13 @@
     <br>
     bob@rit.edu
     <br><br>
-    <div class="buttons">
-        <a href="RequestPermission.html" class="btn btn-default" id="btn1"><br>Pending requests</a>
-    </div>
 </div>
 
 <div class="mid">
 
     <ul class="tabs">
         <li class="tab-link current" data-tab="tab-1">Repositories</li>
+        <li class="tab-link" data-tab="tab-4">Permission Requests</li>
         <li class="tab-link" data-tab="tab-2">Contribution</li>
         <li class="tab-link" data-tab="tab-3">Activity</li>
     </ul>
@@ -85,6 +83,55 @@
         </div>
     </div>
 
+    <div id="tab-4" class="tab-content">
+        <div class="content">
+            <td class="description">
+                <div class="projectname"><font color="#4078c0"><b>SWEN-444</b></font></div>
+                <div><b>User: Bob</b></div>
+                <div>Message: Can I make this request please?</div>
+            </td>
+
+            <td><div class="button" id="l1b">
+                <button id="accept1" class="button accept" onclick="toggle1A()"><b>Accept</b></button>
+                <button id="reject1" class="button reject" onclick="toggle1R()"><b>Reject</b></button>
+                <div id="l1at" class="hide"> <b>Accepted</b> </div>
+                <div id="l1rt" class="hide"> <b>Rejected</b> </div>
+            </div></td>
+        </div>
+
+        <div class="content">
+            <tr>
+                <td class="description">
+                    <div class="projectname"><font color="#4078c0"><b>SWEN-444</b></font></div>
+                    <div><b>User: Mike</b></div>
+                    <div>Message: I have no idea what I did.</div>
+                </td>
+                <td><div class="button" id="l2b">
+                    <button id="accept2" class="button accept" onclick="toggle2A()"><b>Accept</b></button>
+                    <button id="reject2" class="button reject" onclick="toggle2R()"><b>Reject</b></button>
+                    <div id="l2at" class="hide"> <b>Accepted</b> </div>
+                    <div id="l2rt" class="hide"> <b>Rejected</b> </div>
+                </div></td>
+            </tr>
+        </div>
+
+        <div class="content">
+            <tr>
+                <td class="description">
+                    <div class="projectname"><font color="#4078c0"><b>CSCI-262</b></font></div>
+                    <div><b>User: Jerome</b></div>
+                    <div>Message: Hey. I am in your team.</div>
+                </td>
+                <td><div class="button" id="l3b">
+                    <button id="accept3" class="button accept" onclick="toggle3A()"><b>Accept</b></button>
+                    <button id="reject3" class="button reject" onclick="toggle3R()"><b>Reject</b></button>
+                    <div id="l3at" class="hide"> <b>Accepted</b> </div>
+                    <div id="l3rt" class="hide"> <b>Rejected</b> </div>
+                </div></td>
+            </tr>
+        </div>
+    </div>
+
 </div>
 
 <div class="right">
@@ -95,5 +142,6 @@
 </div>
 <div id="footer"></div>
 <script src="../resources/scripts/tabs.js"></script>
+<script src="../resources/scripts/request-perm.js"></script>
 </body>
 </html>
