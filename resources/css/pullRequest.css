@@ -1,12 +1,13 @@
+
 html{
 	background-color: #53777A;
 }
 
-body{
+body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#infoDisplay{
+#infoDisplay {
 	width: 80%;
 	background-color:#ECD078;
     border: 5px solid #D95B43;
@@ -18,7 +19,7 @@ body{
 	margin-right:10%;
 }
 
-#footer{
+#footer {
 	margin-left: 10px;
 }
 
@@ -35,18 +36,22 @@ body{
 	margin-right:10%;
 }
 
-.repoInfo{
+.repoInfo {
 	margin-left: 20px;
 	float: left;
 }
 
-.buttons{
+.buttons {
 	margin-top: 50px;
 }
 
-.buttons button{
+.buttons button {
 	width: 80%;
 	margin-left: 10%;
 	height: 100px;
 	margin-bottom: 10px;
+}
+
+button.backButton {
+	font-size: 16px;
 }

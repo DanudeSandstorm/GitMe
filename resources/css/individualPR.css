@@ -116,7 +116,6 @@ button.reject:hover {
 }
 
 button.prButton{
-	float: right;
 	font-size: 16px;
 }
 
@@ -132,13 +131,13 @@ button.backButton{
 .modifiedTable{
 	float:right;
 	margin-right: 100px;
-	width: 500px;
+	width: 35%;
 }
 
 .originalTable{
 	float: left;
 	margin-left: 100px;
-	width: 500px;
+	width: 35%;
 }
 
 div.hide {
