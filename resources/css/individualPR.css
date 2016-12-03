@@ -1,7 +1,8 @@
 #infoDisplay{
 	width: 80%;
-	background-color:#fff0c8;
-	border: 3px solid black;
+	background-color:#ECD078;
+    border: 5px solid #D95B43;
+    border-radius: 10px;
 	height: 200px;
 	float:left;
 	margin-top: 20px;
@@ -10,10 +11,11 @@
 }
 
 #feed{
-	background-color:#fff0c8;
+	background-color:#ECD078;
 	display: inline;
 	float:left;
-	border: 3px solid black;
+    border: 5px solid #D95B43;
+    border-radius: 10px;
 	width: 80%;
 	margin-top: 50px;
 	margin-left:10%;
