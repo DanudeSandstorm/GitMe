@@ -21,12 +21,11 @@ input {
     -webkit-border-radius: 10px;
 }
 
-center {
-  font-family: Arial, Verdana, sans-serif;
+.content-outline {
+  background-color: #ECD078;
   color: #111111;
-  border: 5px solid #4078c0;
+  border: 5px solid #D95B43;
   padding: 20px;
-  width: 675px;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
